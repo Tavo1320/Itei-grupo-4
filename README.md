@@ -1,40 +1,42 @@
-# tavo — Portafolio de diseño
+# Landing CV · tavo
 
-**Autor: Octavio Rojas Sevilla**  
-Diseño Gráfico Digital · Universidad La Salle, campus Condesa.
+**Autor:** Octavio Rojas Sevilla (tavo)
 
-Portafolio personal con once proyectos en cinco categorías: marca y packaging, campañas, animación, modelado 3D y visualización de datos. El recorrido reúne presentación, formación, herramientas, experiencia, proyectos y contacto. Construido con HTML, CSS y JavaScript sin framework.
+Este repositorio reúne el CV y portafolio de Octavio Rojas Sevilla y la referencia visual de su sistema de diseño. La página se adapta a móvil, tableta y escritorio y está construida con HTML, CSS y JavaScript sin frameworks. El contenido y la arquitectura se describen en [CV.md](CV.md), y la identidad visual —colores, tipografía, espaciado, formas y componentes— se define en [DESIGN.md](DESIGN.md). Incluye once proyectos organizados en cinco categorías, navegación móvil, filtros de proyectos, galerías y animaciones.
 
 ## Páginas publicadas
 
-- [Portafolio](https://tavo1320.github.io/Itei-grupo-4/)
-- [Muestra del sistema de diseño](https://tavo1320.github.io/Itei-grupo-4/design.html)
+- [Landing del CV y portafolio](https://tavo1320.github.io/Itei-grupo-4/)
+- [Sistema de diseño](https://tavo1320.github.io/Itei-grupo-4/design.html)
 
-## Documentación de la entrega
+## Documentos
 
-- [DESIGN.md — tokens y reglas del sistema](DESIGN.md)
-- [CV.md — arquitectura, navegación y contenido](CV.md)
-- [Sistema de diseño en PDF](docs/Sistema-de-diseno-tavo.pdf)
-- [Arquitectura de información en PDF](docs/Arquitectura-de-informacion-tavo.pdf)
-- [Sistema de diseño editable en Word](docs/Sistema-de-diseno-tavo.docx)
-- [Arquitectura de información editable en Word](docs/Arquitectura-de-informacion-tavo.docx)
+- [CV.md](CV.md)
+- [DESIGN.md](DESIGN.md)
+- [Arquitectura del CV y portafolio (PDF)](docs/Arquitectura-de-informacion-tavo.pdf)
+- [Sistema de diseño (PDF)](docs/Sistema-de-diseno-tavo.pdf)
 
-## Relación entre las decisiones y el sitio
+## Contenido del repositorio
 
-DESIGN.md contiene el front matter YAML y las ocho secciones de la especificación de Google. El front matter se escribe con sintaxis JSON, válida dentro de YAML. `scripts/build-tokens.py` deriva `tokens.css` de esos valores. Las dos páginas comparten colores, fuentes, espaciado, formas y estilos de componentes. `CV.md` describe el contenido implementado; `content.js` organiza las fichas de los once proyectos.
+- [`index.html`](index.html) — landing del CV y portafolio.
+- [`design.html`](design.html) — referencia visual del sistema de diseño.
+- [`styles.css`](styles.css) y [`personal.css`](personal.css) — estilos y adaptación a distintos tamaños de pantalla.
+- [`tokens.css`](tokens.css) — variables de diseño derivadas de DESIGN.md.
+- [`app.js`](app.js) y [`content.js`](content.js) — navegación, filtros, galerías y contenido de los proyectos.
+- [`design.css`](design.css) y [`design.js`](design.js) — presentación e interacciones de la muestra del sistema.
+- [`assets/`](assets/) — imágenes, videos, iconos y fuentes.
+- [`docs/`](docs/) — documentos Word y PDF del proyecto.
 
-El rojo #D30B2D identifica las acciones y la selección. Big Shoulders Display se usa para títulos, Avenir Next para lectura cuando está instalada y JetBrains Mono para datos breves. El cuervo es la firma visual. Los proyectos conservan sus colores originales.
+## Cómo verlo localmente
 
-## Validación y consulta local
+Desde la carpeta del proyecto, inicia un servidor local:
 
-La herramienta oficial **@google/design.md 0.4.0** verificó estructura, referencias, contraste de componentes y colores usados: **0 errores y 0 advertencias**. El diagnóstico completo está en [VALIDACION.md](VALIDACION.md).
+```bash
+python3 -m http.server 8765
+```
 
-Con Node.js instalado: `npm install` y `npm run validate:design`. Para regenerar las variables: `npm run tokens`. Para consultar las páginas sin construir nada: `npm start` y abrir la dirección local que se muestra. También puede utilizarse cualquier servidor de archivos estáticos.
+Después visita [http://localhost:8765/](http://localhost:8765/) para ver el portafolio y [http://localhost:8765/design.html](http://localhost:8765/design.html) para consultar el sistema de diseño.
 
-El sitio incluye navegación por teclado, foco visible, diálogo nativo, selección de categorías con estado accesible, pausa de animaciones y respeto por movimiento reducido. Los videos se reproducen por decisión de la persona y se pausan al cerrar el proyecto.
+## Accesibilidad
 
-## Fuentes y materiales
-
-Big Shoulders Display y JetBrains Mono se alojan en `assets/fonts` junto a sus licencias SIL Open Font License. Avenir Next no se redistribuye; se usa la instalación local y, en su ausencia, Avenir, Segoe UI o Arial. Las imágenes, videos y textos de los proyectos fueron proporcionados por el autor. Las marcas que aparecen pertenecen a sus titulares y se muestran dentro de trabajos académicos.
-
-Entrega elaborada a partir de las decisiones del autor con asistencia de Codex. [Instrucciones del proyecto académico](https://gist.github.com/jonmircha/5840bd99dc3306654734ee0fc24a7125).
+La página incluye navegación por teclado, enlace para saltar al contenido, foco visible, textos alternativos y controles con nombres accesibles. Los filtros indican su selección mediante color y una marca de verificación. Las animaciones pueden pausarse y respetan la preferencia de movimiento reducido. Los videos tienen controles y se pausan al cerrar el proyecto. La validación oficial de DESIGN.md terminó con 0 errores y 0 advertencias; los pares de texto y fondo declarados cumplen el contraste mínimo AA de 4.5:1.
