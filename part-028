@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="img"><title>Marca y packaging · Composición de muestra</title><rect width="800" height="600" fill="#d30b2d"/>
+<defs><linearGradient id="face" x1="0" x2="1"><stop stop-color="#eeeae3"/><stop offset="1" stop-color="#fffdf8"/></linearGradient></defs>
+<ellipse cx="415" cy="505" rx="230" ry="28" fill="#93051c" opacity=".5"/>
+<g transform="translate(112 53)"><path d="m118 101 179-24 128 56-181 27Z" fill="#fffcf7"/><path d="m118 101 126 59v292l-126-66Z" fill="#dad6ce"/><path d="m244 160 181-27v294l-181 25Z" fill="url(#face)"/>
+<g transform="matrix(1,-.145,0,1,266,196)" fill="#111" font-family="Arial, sans-serif"><text y="50" font-size="54" font-weight="900" letter-spacing="-4">for</text><text y="103" font-size="54" font-weight="900" letter-spacing="-4">ma.</text><rect y="129" width="130" height="3"/><text y="159" font-size="11" letter-spacing="3">OBJETO / 01</text><circle cx="110" cy="207" r="18" fill="#d30b2d"/></g>
+<path d="m125 111 108 51v84l-108-51Z" fill="#111"/><text x="138" y="170" fill="#fff" font-family="Arial" font-size="22" font-weight="bold" transform="rotate(26 138 170)">MARCA</text></g>
+<g transform="translate(474 320)"><path d="m0 27 104-19 67 40-104 20Z" fill="#faf7f0"/><path d="m0 27 67 41v130l-67-41Z" fill="#dad6ce"/><path d="m67 68 104-20v132l-104 18Z" fill="#111"/><text x="82" y="110" font-family="Arial" font-size="24" fill="#fff" font-weight="bold" transform="rotate(-10 82 110)">f.</text></g>
+<text x="48" y="562" font-family="monospace" font-size="12" letter-spacing="3" fill="#fff">IDENTIDAD / OBJETO / FORMA</text></svg>

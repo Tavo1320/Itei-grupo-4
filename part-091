@@ -1,0 +1,14 @@
+{
+  "name": "tavo-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portafolio de Octavio Rojas Sevilla",
+  "scripts": {
+    "validate:design": "design-md lint DESIGN.md",
+    "tokens": "python3 scripts/build-tokens.py",
+    "start": "python3 -m http.server 4173"
+  },
+  "devDependencies": {
+    "@google/design.md": "0.4.0"
+  }
+}

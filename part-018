@@ -1,0 +1,37 @@
+[
+  {
+    "family": "Big Shoulders Display",
+    "source": "https://fonts.gstatic.com/s/bigshouldersdisplay/v24/fC1MPZJEZG-e9gHhdI4-NBbfd2ys3SjJCx12wPgf9g-_3F0Ydb07JF4.woff2",
+    "file": "big-shoulders-display-500.woff2"
+  },
+  {
+    "family": "Big Shoulders Display",
+    "source": "https://fonts.gstatic.com/s/bigshouldersdisplay/v24/fC1MPZJEZG-e9gHhdI4-NBbfd2ys3SjJCx12wPgf9g-_3F0YdVE8JF4.woff2",
+    "file": "big-shoulders-display-600.woff2"
+  },
+  {
+    "family": "Big Shoulders Display",
+    "source": "https://fonts.gstatic.com/s/bigshouldersdisplay/v24/fC1MPZJEZG-e9gHhdI4-NBbfd2ys3SjJCx12wPgf9g-_3F0YdWg8JF4.woff2",
+    "file": "big-shoulders-display-700.woff2"
+  },
+  {
+    "family": "Big Shoulders Display",
+    "source": "https://fonts.gstatic.com/s/bigshouldersdisplay/v24/fC1MPZJEZG-e9gHhdI4-NBbfd2ys3SjJCx12wPgf9g-_3F0YdQ88JF4.woff2",
+    "file": "big-shoulders-display-800.woff2"
+  },
+  {
+    "family": "Big Shoulders Display",
+    "source": "https://fonts.gstatic.com/s/bigshouldersdisplay/v24/fC1MPZJEZG-e9gHhdI4-NBbfd2ys3SjJCx12wPgf9g-_3F0YdSY8JF4.woff2",
+    "file": "big-shoulders-display-900.woff2"
+  },
+  {
+    "family": "JetBrains Mono",
+    "source": "https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKxjPQ.woff2",
+    "file": "jetbrains-mono-400.woff2"
+  },
+  {
+    "family": "JetBrains Mono",
+    "source": "https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8-qxjPQ.woff2",
+    "file": "jetbrains-mono-500.woff2"
+  }
+]

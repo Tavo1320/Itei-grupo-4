@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="img"><title>Modelado 3D · Composición de muestra</title><rect width="800" height="600" fill="#e8e8e8"/>
+<defs><radialGradient id="sphere" cx=".25" cy=".2" r=".8"><stop stop-color="#ff8b98"/><stop offset=".25" stop-color="#ed3650"/><stop offset=".7" stop-color="#be0929"/><stop offset="1" stop-color="#6c0018"/></radialGradient><radialGradient id="shadow"><stop stop-color="#111" stop-opacity=".26"/><stop offset="1" stop-color="#111" stop-opacity="0"/></radialGradient><linearGradient id="block"><stop stop-color="#fff"/><stop offset="1" stop-color="#c5c5c5"/></linearGradient></defs>
+<ellipse cx="405" cy="482" rx="240" ry="50" fill="url(#shadow)"/>
+<path d="m202 369 187-42 190 64-183 49Z" fill="#fff"/><path d="m202 369 194 71v63l-194-72Z" fill="#cecece"/><path d="m396 440 183-49v62l-183 50Z" fill="url(#block)"/>
+<circle cx="402" cy="279" r="151" fill="url(#sphere)"/>
+<ellipse cx="401" cy="269" rx="80" ry="74" fill="#8d001f"/><ellipse cx="407" cy="280" rx="69" ry="66" fill="#e8e8e8"/>
+<path d="M317 218q24-52 80-54" stroke="#ffbdc6" stroke-width="9" fill="none" stroke-linecap="round" opacity=".65"/>
+<path d="M48 510v42h42m622-42v42h42" stroke="#111" stroke-width="1" fill="none"/>
+<text x="48" y="78" font-family="monospace" font-size="14" letter-spacing="3">VOLUMEN / LUZ / MATERIA</text><text x="654" y="554" font-family="monospace" font-size="11">X Y Z</text></svg>

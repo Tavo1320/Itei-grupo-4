@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="img"><title>Tipografía · Composición de muestra</title><rect width="800" height="600" fill="#f7f5ef"/>
+<path d="M47 109h707M47 457h707M47 510h707" stroke="#cfcac2"/>
+<path d="M120 70v427M655 70v427" stroke="#cfcac2" stroke-dasharray="5 8"/>
+<text x="83" y="446" font-family="Arial,sans-serif" font-size="420" font-weight="900" letter-spacing="-42" fill="#d30b2d">Aa</text>
+<path d="M47 457h707" stroke="#111"/>
+<text x="49" y="545" font-family="monospace" font-size="22" letter-spacing="5">ABCDEFGHIJKLMNOPQRSTUVWXYZ</text><text x="49" y="574" font-family="monospace" font-size="12" letter-spacing="3">PESO / RITMO / PERSONALIDAD</text>
+<circle cx="120" cy="109" r="5" fill="#111"/><circle cx="655" cy="457" r="5" fill="#111"/></svg>

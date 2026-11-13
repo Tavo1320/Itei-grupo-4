@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="img"><title>UX/UI · Composición de muestra</title><rect width="800" height="600" fill="#161616"/>
+<g transform="translate(73 85) rotate(-5 280 220)"><rect width="610" height="410" rx="8" fill="#fafafa"/><path d="M0 42h610" stroke="#d9d9d9"/><circle cx="22" cy="21" r="4" fill="#d30b2d"/><circle cx="38" cy="21" r="4" fill="#d9d9d9"/><circle cx="54" cy="21" r="4" fill="#d9d9d9"/>
+<text x="34" y="88" font-family="Arial" font-size="22" font-weight="bold">t.</text><path d="M422 82h42m22 0h30m20 0h36" stroke="#aaa" stroke-width="3"/>
+<text x="32" y="175" font-family="Arial" font-size="64" font-weight="900" letter-spacing="-4">IDEAS</text><text x="32" y="238" font-family="Arial" font-size="64" font-weight="900" letter-spacing="-4" fill="#d30b2d">EN ORDEN.</text>
+<rect x="36" y="266" width="167" height="40" rx="4" fill="#d30b2d"/><text x="55" y="292" font-family="Arial" font-size="13" fill="#fff">EMPEZAR A EXPLORAR ↗</text>
+<rect x="386" y="118" width="181" height="187" fill="#ececec"/><circle cx="477" cy="211" r="57" fill="#d30b2d"/><circle cx="492" cy="197" r="57" fill="#111"/>
+<path d="M36 347h530" stroke="#ddd"/><rect x="36" y="367" width="150" height="7" fill="#ccc"/><rect x="36" y="383" width="100" height="5" fill="#ddd"/></g>
+<text x="52" y="568" font-family="monospace" font-size="12" letter-spacing="3" fill="#fff">ESTRUCTURA / INTERACCIÓN / EXPERIENCIA</text></svg>
